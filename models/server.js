@@ -8,7 +8,7 @@ class Server {
 
     constructor() {
         this.app  = express();
-        this.port = config.get('PORT');
+        this.port = process.env.PORT ||config.get('PORT');
         this.usuariosPath = '';  ///api/usuarios
         this.cancionesPath= '';
         this.listasPath='';
