@@ -1,0 +1,9 @@
+{
+    "dbConfig": {
+        "host": "mongodb+srv://api-login:a0hzLDE5dAoLPMDv@cluster0.b97oq.mongodb.net/musicstore?retryWrites=true&w=majority",
+        "port": "",
+        "dbName": "/musicstore"
+    },
+    "SECRETORPRIVATEKEY": "MiLlaveSecreta",
+    "PORT": 8080
+}
